@@ -1,0 +1,28 @@
+folder structure:
+clothing-similarity-search/
+├── backend/
+│   ├── app/
+│   │   ├── api/
+│   │   ├── models/
+│   │   ├── services/
+│   │   └── main.py
+│   ├── tests/
+│   │   └── ...
+│   ├── requirements.txt
+│   └── Dockerfile
+├── frontend/
+│   ├── src/
+│   ├── public/
+│   ├── package.json
+│   └── Dockerfile
+├── data/
+│   └── .gitkeep
+├── models/
+│   └── .gitkeep
+├── docker-compose.yml
+├── .dockerignore
+├── .gitignore
+├── README.md
+└── AGENTS.md
+
+still need 'Dockerfile' for frontend and backend
